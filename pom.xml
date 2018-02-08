@@ -205,6 +205,14 @@
         </dependency>
     </dependencies>
 
+   <distributionManagement>
+   <snapshotRepository>
+   <id>nexus</id>
+   <name>Internal Releases</name>
+   <url>http://ec2-54-201-139-197.us-west-2.compute.amazonaws.com:8081/repository/maven-releases</url>
+   </snapshotRepository>
+   </distributionManagement> 
+
     <modules>
         <module>gameoflife-build</module>
         <module>gameoflife-core</module>
